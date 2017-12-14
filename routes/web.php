@@ -22,7 +22,7 @@ Route::get('/random', function() {
 
 });
 
-/*Public Event Resource Routes*/
+/* Public Event Resource Routes */
 Route::get('/events', 'EventController@index')->name('events.index');
 Route::get('/events/create', 'EventController@create')->name('events.create');
 Route::post('/events', 'EventController@store')->name('events.store');
@@ -30,6 +30,19 @@ Route::get('/events/{id}-{slug}', 'EventController@show')->name('events.show');
 Route::get('/events/{id}-{slug}/edit', 'EventController@edit')->name('events.edit');
 Route::put('/events/{id}-{slug}', 'EventController@update')->name('events.update');
 Route::delete('/events/{id}-{slug}', 'EventController@destroy')->name('events.destroy');
+
+/* Debug Routes */
+if(App::environment('local')) {
+
+    Route::get('/drop', function() {
+    	File::deleteDirectory(public_path() . "/img/events");
+        DB::statement('DROP database hereathks');
+        DB::statement('CREATE database hereathks');
+
+        return 'Dropped and recreated database';
+    });
+
+};
 
 
 Route::get('/debug', function() {
