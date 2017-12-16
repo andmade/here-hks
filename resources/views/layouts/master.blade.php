@@ -7,7 +7,7 @@
             @yield('title','Suggestions for You')
         </title>
         <meta charset='utf-8'>
-
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
         {{-- CSS --}}
         <link href="/css/app.css" type='text/css' rel='stylesheet'> 
         <link href="/css/foundation.min.css" type='text/css' rel='stylesheet'> 
