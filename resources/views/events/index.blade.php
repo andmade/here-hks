@@ -10,7 +10,7 @@
 				<img class="event-image" src="{{ $event->event_image }}" alt="Even Poster"/>
 				<div class="event-card-info">
 					<span class="label event-card-label">Seminar</span>
-					<p class="event-card-title">{{ $event->title }}</p>
+					<p class="event-card-title">{{ str_limit($event->title,$limit=55,$end='...') }}</p>
 					
 				</div>
 			</div>
