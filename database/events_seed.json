@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Equal Opportunity Peacekeeping",
+        "start_time": "3/8/2018 11:40 AM",
+        "end_time": "3/8/2018 1:00 PM",
+        "location": "T-102",
+        "description": "In this seminar, Sabrina Karim focuses on the role women have played in peacekeeping, arguing that increasing the number of women is important, but so are gender norms within peacekeeping missions. She demonstrates that in order to make peacekeeping missions more effective at protecting civilians in war torn countries, particular attention to gender is needed.",
+        "contact_name": "Danielle Boudrow",
+        "contact_email": "Danielle_Boudrow@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": false,
+        "rsvp_link": "?",
+        "event_url": "https://wappp.hks.harvard.edu/event/equal-opportunity-peacekeeping",
+        "event_image": "img/evts/citylights.jpg"
+	}, {
+        "title": "The Intersection of Race and Gender in the Earnings of African American and Asian Women in the United States ",
+        "start_time": "2/15/2018 11:40 AM",
+        "end_time": "2/15/2018 1:00 PM ",
+        "location": "T-102",
+        "description": "Most scholars believe that women of color suffer from double discrimination. They experience not only race but also gender discrimination, and that the intersection of race and gender can impart an additional penalty as well. Dr Kim examines earnings disparities by race, gender and the intersection of race and gender for African American and Asian women from 1980 to the present. She finds that African American women continue to suffer from gender and race discrimination, and that the intersection between gender and race imparts an additional third penalty as well. In other words, African American women suffer not only from double discrimination but from triple discrimination. While race disparities increased for African American women, they fell for Asian American women. Preliminary findings for Asian American women also indicate that Asian American suffer from an additional intersectional component as well.",
+        "contact_name": "Danielle Boudrow",
+        "contact_email": "Danielle_Boudrow@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": true,
+        "rsvp_link": "http://hks.harvard.edu",
+        "event_url": "https://wappp.hks.harvard.edu/event/intersection-race-and-gender-earnings-african-american-and-asian-women-united-states",
+        "event_image": "img/evts/blue.jpg"
+	}
+]

@@ -23,7 +23,7 @@ var ctl00_ctl38_g_721a3c02_745c_47b7_baf3_2a4d382b05ca_ctl00results = {
         {
             "GenerationId": 9223372036854775806,
             "ExecutionTimeMs": 0,
-            "QueryModification": "(contentclass:STS_ListItem OR IsDocument:True)ContentTypeId:0x01020024E027100843294E9EA69BC4DBF45393*  EventStartDate>=2017-11-21 -ContentClass=urn:content-class:SPSPeople",
+            "QueryModification": "(contentclass:STS_LisIttem OR IsDocument:True)ContentTypeId:0x01020024E027100843294E9EA69BC4DBF45393*  EventStartDate>=2017-11-21 -ContentClass=urn:content-class:SPSPeople",
             "RenderTemplateId": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js",
             "StartRecord": 0
         },
@@ -33,7 +33,7 @@ var ctl00_ctl38_g_721a3c02_745c_47b7_baf3_2a4d382b05ca_ctl00results = {
         {
             "Rank": 0,
             "DocId": 186951,
-            "Path": "https://knet.hks.harvard.edu/Research-Centers/Women-Public-Policy/Lists/Events/DispForm.aspx?ID=50",
+            "Path": "https: //knet.hks.harvard.edu/Research-Centers/Women-Public-Policy/Lists/Events/DispForm.aspx?ID=50",
             "Title": "Equal Opportunity Peacekeeping",
             "Description": "In this seminar, Sabrina Karim focuses on the role women have played in peacekeeping, arguing that increasing the number of women is important, but so are gender norms within peacekeeping missions. She demonstrates that in order to make peacekeeping missions more effective at protecting civilians in war torn countries, particular attention to gender is needed.",
             "FileExtension": "aspx",

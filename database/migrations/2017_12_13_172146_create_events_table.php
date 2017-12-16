@@ -14,7 +14,7 @@ class CreateEventsTable extends Migration
     public function up()
     {
         Schema::create('events', function (Blueprint $table) {
-            $path = public_path() . "/img/events";
+            $path = public_path() . "/img/evts";
             
             if (!File::exists($path)) {
                 File::makeDirectory($path);
@@ -45,7 +45,7 @@ class CreateEventsTable extends Migration
      */
     public function down()
     {
-        File::deleteDirectory(public_path() . "/img/events");
+        File::deleteDirectory(public_path() . "/img/evts");
         Schema::dropIfExists('events');
     }
 }
