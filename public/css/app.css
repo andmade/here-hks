@@ -37,14 +37,14 @@ body {
 .event-card-label {
     background-color: #A71930 !important;
     color: #fff !important;
-    font-size: 0.75em !important;
+    font-size: 0.9em !important;
     font-weight: bold !important;
     border-radius: 5px !important;
-    padding: 3px !important;
+    padding: 3px 6px !important;
 }
 
 .event-card-title {
     color: #A71930 !important;
     font-weight: bold;
-    font-size: 0.8em !important;
+    font-size: 1em !important;
 }
