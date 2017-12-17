@@ -12,6 +12,9 @@
         <link href="/css/app.css" type='text/css' rel='stylesheet'> 
         <link href="/css/foundation.min.css" type='text/css' rel='stylesheet'> 
 
+        {{-- Javascript --}}
+        <script defer src="/js/vendor/fontawesome-all.js"></script>
+
         {{-- Yield any page specific CSS files or anything else you might want in the <head> --}} 
             @yield('head')
     </head>
@@ -20,16 +23,23 @@
         <header id="top_banner">
             <h1>@yield('top_banner', 'Here@HKS')</h1>
         </header>
+
         <section>
             {{-- Main page content will be yielded here --}} 
             @yield('content')
         </section>
+
         <footer>
-           
+           <ul class="tabs" id="bottom_nav">
+                <li @yield('home_active', 'class=tabs-title') ><a href="#panel1"><i class="fas fa-magic fa-2x" ></i><br><br>For You</a></li>
+                <li @yield('search_active', 'class=tabs-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-search fa-2x" ></i><br><br>Search</a></li>
+                <li @yield('user_active', 'class=tabs-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-user-circle fa-2x" ></i><br><br>Account</a></li>
+            </ul>
         </footer>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.min.js"></script>
+
+        <script src="/js/vendor/jquery.js"></script>
+        <script src="/js/vendor/what-input.js"></script>
+        <script src="/js/vendor/foundation.min.js"></script>
         <script>$(document).foundation()</script>
         {{-- Yield any page specific JS files or anything else you might want at the end of the body --}} 
         @yield('body')
