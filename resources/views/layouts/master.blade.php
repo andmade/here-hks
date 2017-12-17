@@ -31,9 +31,9 @@
 
         <footer>
            <ul class="tabs" id="bottom_nav">
-                <li @yield('home_active', 'class=tabs-title') ><a href="#panel1"><i class="fas fa-magic fa-2x" ></i><br><br>For You</a></li>
-                <li @yield('search_active', 'class=tabs-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-search fa-2x" ></i><br><br>Search</a></li>
-                <li @yield('user_active', 'class=tabs-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-user-circle fa-2x" ></i><br><br>Account</a></li>
+                <li @yield('home_active', 'class=tabs-title') ><a href="#panel1"><i class="fas fa-magic" ></i><br><br>For You</a></li>
+                <li @yield('search_active', 'class=tabs-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-search" ></i><br><br>Search</a></li>
+                <li @yield('user_active', 'class=tabs-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-user-circle" ></i><br><br>Account</a></li>
             </ul>
         </footer>
 
