@@ -38,7 +38,7 @@ body {
 .event-card-label {
     background-color: #A71930 !important;
     color: #fff !important;
-    font-size: 0.7em !important;
+    font-size: 0.8em !important;
     font-weight: bold !important;
     border-radius: 5px !important;
     padding: 3px 6px !important;
@@ -47,7 +47,7 @@ body {
 .event-card-title {
     color: #A71930 !important;
     font-weight: bold;
-    font-size: 0.8em !important;
+    font-size: 0.9em !important;
 }
 
 .event-card-time {
@@ -57,5 +57,5 @@ body {
     bottom: -10px;
     left: 110px;
     font-family: Lato, sans-serif;
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
