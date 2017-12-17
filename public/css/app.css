@@ -26,6 +26,7 @@ body {
     border-radius: 2px;
     min-height: 119px;
     margin: 15px;
+    position: relative;
 }
 
 .event-image {
@@ -37,7 +38,7 @@ body {
 .event-card-label {
     background-color: #A71930 !important;
     color: #fff !important;
-    font-size: 0.9em !important;
+    font-size: 0.7em !important;
     font-weight: bold !important;
     border-radius: 5px !important;
     padding: 3px 6px !important;
@@ -46,5 +47,15 @@ body {
 .event-card-title {
     color: #A71930 !important;
     font-weight: bold;
-    font-size: 1em !important;
+    font-size: 0.8em !important;
+}
+
+.event-card-time {
+    color: 000;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    left: 110px;
+    font-family: Lato, sans-serif;
+    font-size: 0.7em;
 }
