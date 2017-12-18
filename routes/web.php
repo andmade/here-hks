@@ -21,7 +21,7 @@ Route::get('/random', function() {
     return $random->getRandomString(8);
 
 });
-
+ 
 /* Public Event Resource Routes */
 Route::get('/events', 'EventController@index')->name('events.index');
 Route::get('/events/create', 'EventController@create')->name('events.create');

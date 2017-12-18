@@ -47,9 +47,23 @@ class EventController extends Controller
      */
 
 
-    public function show($id)
+    public function show($id, $slug)
     {
-        return view('event.show')->with('title', $id);
+        $event = Event::find($id);
+
+        // If movie doesn't exist, kickback
+        if (is_null($event)) {
+            Session::flash('error', 'Event not found');
+            return back()->withInput();
+        }
+
+        // If id doesn't match slug url, redirect to right slug url
+        if ($slug != str_slug($event->title, "-")) {
+            return redirect('/events/' . $id . '-' . str_slug($event->title, "-"));
+        }
+
+        // dump($test);
+        return view('events.show')->with('event', $event);
     }
 
     /**

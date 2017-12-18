@@ -11,7 +11,7 @@
         "rsvp_required": false,
         "rsvp_link": "?",
         "event_url": "https://wappp.hks.harvard.edu/event/equal-opportunity-peacekeeping",
-        "event_image": "img/evts/citylights.jpg"
+        "event_image": "/img/evts/equalopp.jpg"
 	}, {
         "title": "The Intersection of Race and Gender in the Earnings of African American and Asian Women in the United States ",
         "start_time": "2/15/2018 11:40 AM",
@@ -24,6 +24,6 @@
         "rsvp_required": true,
         "rsvp_link": "http://hks.harvard.edu",
         "event_url": "https://wappp.hks.harvard.edu/event/intersection-race-and-gender-earnings-african-american-and-asian-women-united-states",
-        "event_image": "img/evts/blue.jpg"
+        "event_image": "/img/evts/blue.jpg"
 	}
 ]

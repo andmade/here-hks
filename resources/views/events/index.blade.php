@@ -24,5 +24,5 @@
 @endsection
 
 @section('home_active')
-		class='tabs-title is-active'
-		@endsection
+		class='footer-nav-title is-active'
+@endsection

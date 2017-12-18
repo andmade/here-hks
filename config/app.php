@@ -178,6 +178,7 @@ return [
          * Package Service Providers...
          */
         Barryvdh\Debugbar\ServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
 
 
     ],
@@ -231,6 +232,7 @@ return [
 
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Random'    => 'Rych\Random\Random',
+        'Image' => Intervention\Image\Facades\Image::class,
 
     ],
 
