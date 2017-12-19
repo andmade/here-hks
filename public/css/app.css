@@ -105,8 +105,19 @@ footer .footer-nav-title.is-active a {
 }
 
 #show_event_details {
-    text-align: center !important;
+    padding: 10px;
 }
+
+#show_event_actions {
+    text-align: center;
+}
+
+#show_event_actions svg {
+    display: inline-block;
+    margin: 5px 20px;
+    color: #a71930;
+}
+
 
 #show_event_title h1 {
     color: #A71930;
@@ -114,4 +125,14 @@ footer .footer-nav-title.is-active a {
     font-weight: 900 !important;
     font-size: 1.5rem !important;
     letter-spacing: 1px;
+    padding-top: 5px;
+}
+
+#show_event_date_time {
+    font-weight: bold;
+    font-family: Lato, sans-serif !important;
+}
+
+#show_event_description {
+    margin-top: 5px;
 }

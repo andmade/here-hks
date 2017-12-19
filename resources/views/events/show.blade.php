@@ -1,5 +1,5 @@
-@extends('layouts.master') 
 
+@extends('layouts.master') 
 @section('content') 
 
 	@section('top_banner')
@@ -14,8 +14,25 @@
 		<div id="show_event_title">
 			<h1>{{ $event->title }}</h1>
 		</div>
+		<div id="show_event_date_time">
+			<p>
+				<span>{{ Carbon\Carbon::parse($event->start_time)->format('l, M j')}}</span> |
+				<span>{{ Carbon\Carbon::parse($event->start_time)->format('g:i a -')}}</span>
+				<span>{{ Carbon\Carbon::parse($event->end_time)->format('g:i a')}}</span> |
+				<span>{{ $event->location }}</span>
+			</p>
+		</div>
+		<div id="show_event_actions">
+			<i class="far fa-bookmark fa-2x" ></i>
+			<i class="far fa-calendar-plus fa-2x" ></i>
+			<i class="fas fa-share-square fa-2x" ></i>
+
+		</div>
+		<div id="show_event_description">
+			{{ $event->description }}
+		</div>
 	</div>
-@stop 
+@endsection
 
 @section('search_active')
 		class='footer-nav-title is-active'
