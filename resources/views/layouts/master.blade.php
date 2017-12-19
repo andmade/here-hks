@@ -30,8 +30,8 @@
             {{-- Main page content will be yielded here --}} 
             @yield('content')
         </section>
-<div class="footer-wrapper" data-sticky-container>
-        <footer data-sticky data-stick-to="bottom" data-btm-anchor="100%">
+<div class="footer-wrapper" >
+        <footer >
            <ul class="tabs" id="bottom_nav">
                 <li @yield('home_active', 'class=footer-nav-title') ><a href="#panel1"><i class="fas fa-magic fa-lg" ></i><br>For You</a></li>
                 <li @yield('search_active', 'class=footer-nav-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-search fa-lg" ></i><br>Search</a></li>

@@ -18,8 +18,8 @@
 		<div id="show_event_date_time">
 			<p>
 				<span>{{ Carbon\Carbon::parse($event->start_time)->format('l, M j')}}</span> |
-				<span>{{ Carbon\Carbon::parse($event->start_time)->format('g:i a -')}}</span>
-				<span>{{ Carbon\Carbon::parse($event->end_time)->format('g:i a')}}</span> |
+				<span>{{ Carbon\Carbon::parse($event->start_time)->format('g:ia -')}}</span>
+				<span>{{ Carbon\Carbon::parse($event->end_time)->format('g:ia')}}</span> |
 				<span>{{ $event->location }}</span>
 			</p>
 		</div>
@@ -34,8 +34,8 @@
 		</div>
 
 		<div id="show_event_misc">
-			<p><a data-toggle="show_event_misc_list" >+ Contact Details / More Info:</a></p>
-			<ul id="show_event_misc_list" data-toggler data-animate="hinge-in-from-top hinge-out-from-top">
+			<p><a data-toggle="show_event_misc_list"  >+ Contact Details / More Info:</a></p>
+			<ul id="show_event_misc_list" class="animation" data-toggler data-animate="hinge-in-from-top hinge-out-from-top">
 				<li><span class="show-event-toggle-label">Sponsor:</span></li>
 				<li><span class="show-event-toggle-label">Contact: <a href="mailto:{{ $event->contact_email }}">{{ $event->contact_name}}</a> / {{ $event->contact_phone }}</span></li>
 				<li><span class="show-event-toggle-label">RSVP:</span></li>
