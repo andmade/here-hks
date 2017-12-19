@@ -20,22 +20,25 @@
     </head>
 
     <body>
-        <header id="top_banner">
-            <h1>@yield('top_banner', 'Here@HKS')</h1>
-        </header>
+        <div class="header-wrapper" data-sticky-container>
+            <header id="top_banner" class="sticky" data-sticky data-sticky data-options="marginTop:0;stickTo:top; stickyOn:small;">
+                <h1>@yield('top_banner', 'Here@HKS')</h1>
+            </header>
+        </div>
 
-        <section>
+        <section id="page_content">
             {{-- Main page content will be yielded here --}} 
             @yield('content')
         </section>
-
-        <footer>
+<div class="footer-wrapper" data-sticky-container>
+        <footer data-sticky data-stick-to="bottom" data-btm-anchor="100%">
            <ul class="tabs" id="bottom_nav">
                 <li @yield('home_active', 'class=footer-nav-title') ><a href="#panel1"><i class="fas fa-magic fa-lg" ></i><br>For You</a></li>
                 <li @yield('search_active', 'class=footer-nav-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-search fa-lg" ></i><br>Search</a></li>
                 <li @yield('user_active', 'class=footer-nav-title')><a data-tabs-target="panel2" href="#panel2"><i class="fas fa-user-circle fa-lg" ></i><br>Account</a></li>
             </ul>
         </footer>
+    </div>
 
         <script src="/js/vendor/jquery.js"></script>
         <script src="/js/vendor/what-input.js"></script>

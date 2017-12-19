@@ -12,6 +12,7 @@
 
 	<div id="show_event_details">
 		<div id="show_event_title">
+			<span id="show_event_label">Seminar</span><br>
 			<h1>{{ $event->title }}</h1>
 		</div>
 		<div id="show_event_date_time">
@@ -30,6 +31,16 @@
 		</div>
 		<div id="show_event_description">
 			{{ $event->description }}
+		</div>
+
+		<div id="show_event_misc">
+			<p><a data-toggle="show_event_misc_list" >+ Contact Details / More Info:</a></p>
+			<ul id="show_event_misc_list" data-toggler data-animate="hinge-in-from-top hinge-out-from-top">
+				<li><span class="show-event-toggle-label">Sponsor:</span></li>
+				<li><span class="show-event-toggle-label">Contact: <a href="mailto:{{ $event->contact_email }}">{{ $event->contact_name}}</a> / {{ $event->contact_phone }}</span></li>
+				<li><span class="show-event-toggle-label">RSVP:</span></li>
+				<li><span class="show-event-toggle-label">Source:</span></li>
+			</ul>
 		</div>
 	</div>
 @endsection
