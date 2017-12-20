@@ -20,11 +20,7 @@
     </head>
 
     <body>
-        <div class="header-wrapper" data-sticky-container>
-            <header id="top_banner" class="sticky" data-sticky data-sticky data-options="marginTop:0;stickTo:top; stickyOn:small;">
-                <h1>@yield('top_banner', 'Here@HKS')</h1>
-            </header>
-        </div>
+        
 
         <section id="page_content">
             {{-- Main page content will be yielded here --}} 

@@ -12,6 +12,11 @@ class EventController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function search() {
+        $events = Event::paginate(12);
+        return view('events.search')->with('events', $events);
+    }
     public function index()
     {
         $events = Event::paginate(12);

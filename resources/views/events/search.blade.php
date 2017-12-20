@@ -1,11 +1,17 @@
 @extends('layouts.master') 
 
 @section('content')
-		<div class="header-wrapper" data-sticky-container>
-            <header id="top_banner" class="sticky" data-sticky data-sticky data-options="marginTop:0;stickTo:top; stickyOn:small;">
-                <h1>Suggestions for You</h1>
-            </header>
-        </div>
+		<div id="search_options_container">	
+			<input id="search_input_field" type="search" placeholder="Search...">
+			<div id="search_filters">
+				<a class="dropdown button tiny hollow" href="#">So Tiny</a>
+				<a class="dropdown button tiny hollow" href="#">So Tiny</a>
+				<a class="dropdown button tiny hollow" href="#">So Tiny</a>
+				<a class="dropdown button tiny hollow" href="#">So Tiny</a>
+				
+			</div>
+			
+		</div>
 		
 		@foreach($events as $event)
 			<div class="event-card">

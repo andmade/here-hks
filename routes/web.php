@@ -25,6 +25,7 @@ Route::get('/random', function() {
 /* Public Event Resource Routes */
 Route::get('/events', 'EventController@index')->name('events.index');
 Route::get('/events/create', 'EventController@create')->name('events.create');
+Route::get('/events/search', 'EventController@search')->name('events.search');
 Route::post('/events', 'EventController@store')->name('events.store');
 Route::get('/events/{id}-{slug}', 'EventController@show')->name('events.show');
 Route::get('/events/{id}-{slug}/edit', 'EventController@edit')->name('events.edit');
