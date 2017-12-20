@@ -14,8 +14,9 @@
 			
 			
 		</div>
-		<a class="event-card-link" href="/events/{{$event->id}}-{{ str_slug($event->title,'-')}}" >
+		
 		@foreach($events as $event)
+		<a class="event-card-link" href="/events/{{$event->id}}-{{ str_slug($event->title,'-')}}" >
 			<div class="event-card">
 				<img class="event-image" src="{{ $event->event_image . "_thumb.jpg" }}" alt="Event Poster"/>
 				<div class="event-card-info">
@@ -29,8 +30,9 @@
 					
 				</div>
 			</div>
+			</a>
 		@endforeach
-	</a>
+
 
 @endsection
 
