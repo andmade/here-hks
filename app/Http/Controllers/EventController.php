@@ -14,12 +14,17 @@ class EventController extends Controller
      */
 
     public function search() {
-        $events = Event::paginate(12);
+        $events = Event::orderBy('start_time','ASC')->limit(12)->get();
         return view('events.search')->with('events', $events);
+    } 
+
+    public function filter() {
+        $events = Event::orderBy('start_time','ASC')->where('event_type','Seminar')->limit(12)->get();
+        return view('events.filter')->with('events', $events);
     }
     public function index()
     {
-        $events = Event::paginate(12);
+        $events = Event::orderBy('start_time','ASC')->limit(4)->get();
          return view('events.index')->with('events', $events);
     }
 

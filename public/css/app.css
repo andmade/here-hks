@@ -6,6 +6,64 @@ body {
     position: relative;
 }
 
+#app_title_tag_container {
+    text-align: center;
+}
+
+#app_title {
+    margin: 150px auto 0 auto;
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+#tag_line {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    color: #A71930;
+}
+
+#overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    /* Hidden by default */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+
+#type_dropdown {
+    z-index: 3;
+    position: fixed;
+    margin-left: 40%;
+}
+
+.at-sign {
+    color: #A71930;
+}
+
+#hk_button {
+    background-color: #A71930;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 1.5em;
+}
+
 footer {
     margin-bottom: 0;
     bottom: 0;
@@ -42,7 +100,7 @@ footer .footer-nav-title.is-active a {
 }
 
 #page_content {
-    max-height: 100vh;
+    /*max-height: 90vh;*/
     margin-bottom: 50px;
 }
 
@@ -75,6 +133,10 @@ footer .footer-nav-title.is-active a {
     position: relative;
 }
 
+.event-card-link .event-card-info {
+    color: #000 !important;
+}
+
 .event-image {
     max-width: 100px;
     float: left;
@@ -97,7 +159,7 @@ footer .footer-nav-title.is-active a {
 }
 
 .event-card-time {
-    color: 000;
+    color: #000;
     font-weight: bold;
     position: absolute;
     bottom: -10px;
@@ -202,11 +264,21 @@ footer .footer-nav-title.is-active a {
     border-color: #A71930;
     font-family: Lato, sans-serif;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 5px;
     border-radius: 5px;
 }
 
 #search_filters a:after {
     border-top-color: #A71930 !important;
+}
+
+a.not-hollow {
+    color: #fff !important;
+    background-color: #A71930;
+}
+
+
+#search_filters a.not-hollow:after {
+    border-top-color: #fff !important;
 }

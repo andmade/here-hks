@@ -1,14 +1,21 @@
 @extends('layouts.master') 
 
 @section('content')
-		<div class="header-wrapper" data-sticky-container>
-            <header id="top_banner" class="sticky" data-sticky data-sticky data-options="marginTop:0;stickTo:top; stickyOn:small;">
-                <h1>Suggestions for You</h1>
-            </header>
-        </div>
-		
-		@foreach($events as $event)
+		<div id="search_options_container">	
+			<input id="search_input_field" type="search" placeholder="Search...">
+			<div id="search_filters">
+				<a class="dropdown button tiny hollow" href="#">Date</a>
+				<a data-toggle="type_dropdown" class="dropdown button tiny not-hollow" href="#">Type</a>
+				
+				<a class="dropdown button tiny hollow" href="#">Dept</a>
+				<a class="dropdown button tiny hollow" href="#">Area</a>
+				
+			</div>
+			
+			
+		</div>
 		<a class="event-card-link" href="/events/{{$event->id}}-{{ str_slug($event->title,'-')}}" >
+		@foreach($events as $event)
 			<div class="event-card">
 				<img class="event-image" src="{{ $event->event_image . "_thumb.jpg" }}" alt="Event Poster"/>
 				<div class="event-card-info">
@@ -22,11 +29,11 @@
 					
 				</div>
 			</div>
-		</a>
 		@endforeach
+	</a>
 
 @endsection
 
-@section('home_active')
+@section('search_active')
 		class='footer-nav-title is-active'
 @endsection

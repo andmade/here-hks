@@ -21,11 +21,27 @@ Route::get('/random', function() {
     return $random->getRandomString(8);
 
 });
+
+Route::get('/verify',function() {
+	return '<a href="/events"><img src="/img/harvard_key.jpg" style="max-width:100%"></a>';
+
+});
+Route::get('/filtered',function() {
+	return '<a href="/events/search/filter"><img src="/img/filtered.jpg" style="max-width:100%"></a>';
+
+});
+Route::get('/calendar',function() {
+	return '<a href="/events/search/account"><img src="/img/calendar.jpg" style="max-width:100%"></a>';
+
+});
  
 /* Public Event Resource Routes */
 Route::get('/events', 'EventController@index')->name('events.index');
 Route::get('/events/create', 'EventController@create')->name('events.create');
+
 Route::get('/events/search', 'EventController@search')->name('events.search');
+Route::get('/events/search/filter', 'EventController@filter')->name('events.filter');
+
 Route::post('/events', 'EventController@store')->name('events.store');
 Route::get('/events/{id}-{slug}', 'EventController@show')->name('events.show');
 Route::get('/events/{id}-{slug}/edit', 'EventController@edit')->name('events.edit');

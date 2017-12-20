@@ -17,6 +17,9 @@ class EventsTableSeeder extends Seeder
         foreach ($data as $seed_event) {
         	$event 					= new Event();
         	$event->title 			= $seed_event->title;
+            $event->speaker         = $seed_event->speaker;
+            $event->sponsor         = $seed_event->sponsor;
+            $event->event_type      = $seed_event->event_type;
         	$event->start_time 		= new DateTime($seed_event->start_time);
         	$event->end_time 		= new DateTime($seed_event->end_time);
         	$event->location 		= $seed_event->location;

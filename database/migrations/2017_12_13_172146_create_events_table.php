@@ -24,6 +24,9 @@ class CreateEventsTable extends Migration
             $table->timestamps();
 
             $table->string('title');
+            $table->string('speaker');
+            $table->string('sponsor');
+            $table->string('event_type');
             $table->dateTime('start_time');
             $table->dateTime('end_time');
             $table->string('location');

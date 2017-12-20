@@ -1,6 +1,9 @@
 [
     {
         "title": "Equal Opportunity Peacekeeping",
+        "sponsor": "The Women and Public Policy Program",
+        "speaker": "Sabrina Karim",
+        "event_type": "Seminar",
         "start_time": "3/8/2018 11:40 AM",
         "end_time": "3/8/2018 1:00 PM",
         "location": "T-102",
@@ -11,9 +14,12 @@
         "rsvp_required": false,
         "rsvp_link": "?",
         "event_url": "https://wappp.hks.harvard.edu/event/equal-opportunity-peacekeeping",
-        "event_image": "/img/evts/equalopp.jpg"
-	}, {
+        "event_image": "/img/evts/equalopp"
+    }, {
         "title": "The Intersection of Race and Gender in the Earnings of African American and Asian Women in the United States ",
+        "sponsor": "The Women and Public Policy Program",
+        "speaker": "Marlene Kim",
+        "event_type": "Seminar",
         "start_time": "2/15/2018 11:40 AM",
         "end_time": "2/15/2018 1:00 PM ",
         "location": "T-102",
@@ -24,6 +30,86 @@
         "rsvp_required": true,
         "rsvp_link": "http://hks.harvard.edu",
         "event_url": "https://wappp.hks.harvard.edu/event/intersection-race-and-gender-earnings-african-american-and-asian-women-united-states",
-        "event_image": "/img/evts/blue.jpg"
-	}
+        "event_image": "/img/evts/women_seminar"
+    }, {
+        "title": "Harvard Diversity Tri-Mixer",
+        "speaker": "none",
+        "sponsor": "Degree Programs and Student Affairs",
+        "event_type": "Community Event",
+        "start_time": "12/19/2017 5:00 PM",
+        "end_time": "12/19/2017 7:00 PM ",
+        "location": "JFK Forum",
+        "description": " A collaborative effort across Harvard Schools to unite students!",
+        "contact_name": "Natara Gray",
+        "contact_email": "jennifer_greene@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": false,
+        "rsvp_link": "http://hks.harvard.edu",
+        "event_url": "none",
+        "event_image": "/img/evts/community_event"
+    }, {
+        "title": "Campus Transformation Celebration",
+        "speaker": "none",
+        "sponsor": "Dean's Office",
+        "event_type": "Community Event",
+        "start_time": "12/19/2017 9:30 AM",
+        "end_time": "12/19/2017 2:00 PM ",
+        "location": "HKS Cafe",
+        "description": "Join the Harvard Kennedy School community as we cut the ribbon on our transformed campus and showcase the impact of philanthropy on our mission. We hope you can join us for one or all of these events.",
+        "contact_name": "Margaret Miller ",
+        "contact_email": "special_events@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": true,
+        "rsvp_link": "http://pages.hu.harvard.edu/page.aspx?QS=2e4c31a3756cb940923e25b6ee052f475c2ee918572cb775b5cca7369e96ecaa",
+        "event_url": "http://pages.hu.harvard.edu/page.aspx?QS=2e4c31a3756cb940923e25b6ee052f475c2ee918572cb775b5cca7369e96ecaa",
+        "event_image": "/img/evts/community_event"
+    }, {
+        "title": "Normalization by Other Means",
+        "sponsor": "Belfer Center",
+        "event_type": "Seminar",
+        "speaker": "Chris Lawrence",
+        "start_time": "12/20/2017 10:00 AM",
+        "end_time": "12/20/2017 11:30 AM ",
+        "location": "L-324",
+        "description": "Chris Lawrence is a Visiting Research Fellow with the Program on Science, Technology and Society in Harvard’s Kennedy School of Government. He is generally interested in questions of knowledge as they pertain to arms control and disarmament. While at Harvard, he will examine the making of open-source nuclear intelligence, and the role it plays in the framing of public narratives about weapons of mass destruction. Chris received his PhD in nuclear science and engineering at University of Michigan, where he developed novel neutron-spectroscopy techniques to characterize nuclear warheads for treaty verification. After finishing at Michigan, he was Stanton Nuclear Security Postdoctoral Fellow at the Center of International Security and Cooperation at Stanford University. There, he studied the history of North Korea’s pursuit of light water reactor technology, and the shifting role that pursuit played in its diplomacy.",
+        "contact_name": "Casey Campbell",
+        "contact_email": "casey_campbell@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": false,
+        "rsvp_link": "http://hks.harvard.edu",
+        "event_url": "https://www.belfercenter.org/event/normalization-other-means-failed-techno-diplomacy-light-water-reactor-export-north-korean",
+        "event_image": "/img/evts/male_seminar"
+    }, {
+        "title": "Does Cleaner Air Injure Workers?",
+        "sponsor": "Mossavar-Rahmani Center",
+        "speaker": "Matthew Johnson",
+        "event_type": "Seminar",
+        "start_time": "12/20/2017 11:45 AM",
+        "end_time": "12/20/2017 1:00 PM ",
+        "location": "B-500 (Bell Hall)",
+        "description": "The Regulatory Policy Program invites you to attend its Fall 2017 Seminar Series. Lunch will be provided.",
+        "contact_name": "Danielle Boudrow",
+        "contact_email": "Danielle_Boudrow@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": true,
+        "rsvp_link": "http://hks.harvard.edu",
+        "event_url": "https://wappp.hks.harvard.edu/event/intersection-race-and-gender-earnings-african-american-and-asian-women-united-states",
+        "event_image": "/img/evts/male_seminar"
+    }, {
+        "title": "The Influence of Sexual Orientation and Race on Gender Prescriptive Stereotypes",
+        "sponsor": "The Women and Public Policy Program",
+        "speaker": "Sa-Kiera Hudson",
+        "event_type": "Seminar",
+        "start_time": "12/27/2017 11:40 AM",
+        "end_time": "12/27/2017 1:00 PM ",
+        "location": "T-102",
+        "description": "Gender stereotypes persist in society. Many of these stereotypes are prescriptive, indicating how men and women should behave in social situations. However, an outstanding question is whether these normative gender beliefs apply equally to men and women of additional social categories. This work explores this question using an intersectional approach by asking participants to indicate the desirability of men, women, and people of different sexual orientations and races displaying a series of masculine and feminine traits. The results clearly show that although the category “man” and “woman” have different prescriptive stereotypes that haven’t substantively changed since 2002, race and sexual orientation substantively alter the landscape of these gendered stereotypes.These findings have implications for norm violation accounts of discrimination.",
+        "contact_name": "Danielle Boudrow",
+        "contact_email": "Danielle_Boudrow@hks.harvard.edu",
+        "contact_phone": "(617) 496-9157",
+        "rsvp_required": false,
+        "rsvp_link": "http://hks.harvard.edu",
+        "event_url": "https://wappp.hks.harvard.edu/event/influence-sexual-orientation-and-race-gender-prescriptive-stereotypes",
+        "event_image": "/img/evts/women_seminar_2"
+    }
 ]
